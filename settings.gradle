@@ -1,0 +1,10 @@
+rootProject.name = 'trmi-eltoque'
+
+sourceControl {
+    gitRepository("https://github.com/Root-101/java-commons.git") {
+        producesModule("dev.root101.commons:commons")
+    }
+}
+
+//include ':clean-core'
+//project(':clean-core').projectDir = "D:\\Programming\\Java\\Projects\\clean-core" as File
